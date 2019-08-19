@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Practicanddo jQuery</title>
+    </head>
+    <body>
+
+        <h1>Formato de documento HTML</h1>
+
+        <p>Un párrafo es una unidad de discurso en texto escrito que expresa una idea o un argumento.</p>
+        <p class="SelectorDeClase"> bla bla bla bla</p>
+        <p class="SelectorDeClase"> bla bla bla bla</p>
+        <p class="SelectorDeClase"> bla bla bla bla</p>
+        <p id="SelectorID">Párrafo con ID</p>
+
+        <button>Ocultar Todo</button>
+        <button id="BtnMostrarTodo">Mostrar Todo</button>
+        <button id="BtnMostrarSelectorDeclase">Mostrar Parrafo con Selector De Clase</button>
+        <button id="BtnMostrarSelectorID">MostrarParrafo con Selector ID</button>
+
+        <script type="text/javascript" src="./lib/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="./lib/App.js"></script>
+        <script>
+            $(document).ready(function(){ // método que nos permite ejecutar una función cuando el documento está completamente cargado
+                
+                $("button").click(function(){ // El elemento button en su propiedad click
+                    $("p").hide(); // Al ser clickeado ocultara todo los elementos de tipo parrafo
+                });
+
+                $("#BtnMostrarTodo").click(function(){ //El elemento button en su propiedad click
+                    $("p").show(); // al ser clickeado mostrar todos los parrafos ocultos
+                });
+
+                $("#BtnMostrarSelectorDeclase").click(function(){
+                    $(".SelectorDeClase").show();
+                });
+
+                $("#BtnMostrarSelectorID").click(function(){
+                    $("#SelectorID").show();
+                });
+            });
+        </script>
+    </body>
+</html>
