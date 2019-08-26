@@ -1,5 +1,7 @@
 #NPN Packages utilizando YARN
 ## Iniciando proyecto package.json + yarn.lock
+yarn global add create-react-app
+create-react-app my-app
 yarn init --yes
 yarn add PackageName [-D] Desarrollo
 
