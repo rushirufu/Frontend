@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 /RactJS/Store/WebApplication/.vs/WebApplication
-/Frontend/src/RactJS/node_modules
+
+# Ignora las librerias descargadas via NPM
+/node_modules
