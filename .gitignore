@@ -4,4 +4,4 @@
 /RactJS/Store/WebApplication/.vs/WebApplication
 
 # Ignora las librerias descargadas via NPM
-/node_modules
+node_modules/
