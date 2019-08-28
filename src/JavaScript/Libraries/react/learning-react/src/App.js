@@ -1,15 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import logo from './logo.svg';
+//import './App.css';
+//Importar componente creado
+import Abc from './Components/Layout/Footer';
 
-class Car extends React.Component {
-  render() {
-    return <h2>Hi, I am a Car!</h2>;
-  }
+
+
+function App() {
+  return (
+    <div className="App">
+
+        <Abc>
+
+        </Abc>
+
+      
+    </div>
+  );
 }
 
-export default Car;
+export default App;
 
-/*
-Notice that you now have three files in your project:
-"App.js", "index.js", and "index.html".
-*/
+
+
+
