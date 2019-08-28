@@ -8,11 +8,8 @@ yarn add bootstrap
 yarn add jquery
 yarn add jqueryui
 yarn add popper.js
-
-yarn add react
-yarn add react-dom
 yarn add babel
-yarn add react-scripts
+
 
 
 yarn global add create-react-app
