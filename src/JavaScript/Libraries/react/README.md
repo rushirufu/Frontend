@@ -1,4 +1,4 @@
-#NPN Packages utilizando YARN
+# NPN Packages utilizando YARN
 ## Iniciando proyecto package.json + yarn.lock
 
 C:\Users\MiDirectorio>
