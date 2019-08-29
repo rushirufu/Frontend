@@ -1,7 +1,7 @@
 import React from 'react';
 import './Thumbnail.css';
-import Rating from '@material-ui/lab/Rating';
-function Thumbnail(){
+
+export default function Thumbnail(){
   return (
       <div className='Thumbnail-Box'>
         <div className='Thumbnail-Img'>
@@ -10,10 +10,10 @@ function Thumbnail(){
 
         <div className='Thumbnail-Title'>
           <h3>Title Video Here</h3>
-          <Rating />
+
 
         </div>
       </div>
     );
 }
-export default Thumbnail;
+
