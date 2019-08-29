@@ -4,14 +4,16 @@ import './ReactWebApp.css';
 import NavComp from './Components/Layout/Header/index';
 import FooterComp from './Components/Layout/Footer';
 import HomePage from './Components/Views/Home/index';
-import BoxComp from './Components/Box'
+import ThumbnailComp from './Components/Content/ThumbnailContainer/Thumbnail';
+
+
 
 function ReactWebApp() {
   return (
     <div className="App">
       <NavComp/>
       <HomePage/>
-      <BoxComp/>
+      <ThumbnailComp/>
       <FooterComp/>
     </div>
   );
