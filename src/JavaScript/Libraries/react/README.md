@@ -2,7 +2,11 @@
 ## Iniciando proyecto package.json + yarn.lock
 
 C:\Users\MiDirectorio>
-Script
+---------
+yarn add @material-ui/core
+yarn add @material-ui/icons
+
+----------
 yarn init --yes
 yarn add bootstrap
 yarn add jquery
