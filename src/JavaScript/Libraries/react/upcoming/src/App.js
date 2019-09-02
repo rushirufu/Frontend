@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import Clock from './Views/Home/index';
+
+import Layout from './Views/Layout/Layout';
 
 function App() {
   return(
-    <Clock/>
+    <Layout/>
   );
 }
 export default App;
