@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import HomePage from '../Home/Home';
+import HomePage from '../Home/index'
 import Footer from './Footer';
 
 

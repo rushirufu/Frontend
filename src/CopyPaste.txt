@@ -1,0 +1,23 @@
+import React from 'react';
+
+export default function Thumbnail(){
+const data = [person, setPerson] = useState(null);
+
+
+    return(
+        <div className = "Thumbnail-Wrapper">
+            <div className="Thumbnail-Container">
+                <ul>
+                    {data.results.map(item => (
+                        <li key={item.id}>
+                          
+                            <img alt={item.name} src={item.image} />
+                            <span className="name"> {item.name}</span>
+
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+    );
+}
